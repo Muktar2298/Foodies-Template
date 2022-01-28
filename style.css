@@ -397,6 +397,10 @@ main {
   width: 100%;
   height: 100%;
 }
+.features img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
 .half-width2 > div {
   width: 350px;
   height: 350px;
