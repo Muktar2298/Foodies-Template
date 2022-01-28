@@ -211,6 +211,19 @@ a {
 li {
   list-style-type: none;
 }
+
+/* ---Before & after */
+nav > ul > li ::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #06c167;
+  position: absolute;
+  top: 8.5%;
+  left: 59.79%;
+  transition: 2s;
+}
 /* --header content-- */
 .content-img {
   position: relative;
@@ -478,3 +491,5 @@ input[type="submit"] {
 .small-footer {
   margin-top: 96px;
 }
+
+/* ----------------------End---------------- */
