@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Neonderthaw&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Rubik+Beastly&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+/* -----------------Typography------------ */
+h1 {
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  line-height: 39px;
+  font-weight: 500;
+}
+h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 5px;
+  line-height: 22px;
+  color: #1d1d1f;
+}
+h4 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1d1d1f;
+}
+.color-text {
+  color: #06c167;
+}
+.grey-text {
+  color: #767675;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.green-text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #06c167;
+  margin-left: 10px;
+}
+/* ------------------Common Style-------------*/
+.sub-container {
+  width: 80%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #1d1d1f;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.half-width {
+  display: flex;
+  margin-top: 4.75rem;
+}
+.half-width > * {
+  flex: 1;
+}
+.half-width2 {
+  display: flex;
+  align-items: center;
+}
+.half-width2 > * {
+  flex: 1;
+}
+.half-width-gap {
+  gap: 2rem;
+}
+.title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 91px;
+  color: #1d1d1f;
+}
+.title-2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+  color: #1d1d1f;
+  margin-bottom: 3rem;
+}
+.sub-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142.4%;
+  color: rgba(29, 29, 31, 0.75);
+  margin-top: 11px;
+  margin-bottom: 30px;
+}
+.fill-btn {
+  width: 240px;
+  height: 68px;
+  color: #ffffff;
+  background: #06c167;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  cursor: pointer;
+}
+.arrow-icon {
+  position: relative;
+  width: 22.38px;
+  height: 11px;
+  color: #ffffff;
+  left: 5%;
+}
+.fillout-btn {
+  width: 150px;
+  height: 42px;
+  color: #06c167;
+  background: #e6f9f0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+}
+.arrow-icon2 {
+  position: relative;
+  width: 22.38px;
+  height: 11px;
+  color: #06c167;
+  left: 5%;
+}
+.outline-btn {
+  width: 155px;
+  height: 42px;
+  color: #06c167;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  cursor: pointer;
+  border: 2px solid #06c167;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin: 10px 0;
+}
+.text-center {
+  text-align: center;
+}
+/* ------------------Header Style-------------*/
+header {
+  width: 100%;
+  height: 41.4375rem;
+  background-color: #f3fcf7;
+  margin-bottom: 20rem;
+}
+.brand-title,
+.active {
+  color: #06c167;
+}
+
+/* --navbar-- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li,
+a {
+  display: inline-block;
+  margin: 0.8rem;
+}
+/* --header content-- */
+.content-img {
+  position: relative;
+}
+.img {
+  width: 75%;
+  height: 85%;
+  display: block;
+  margin: 0 auto;
+}
+.rating,
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 230px;
+  height: 53px;
+  background-color: #ffffff;
+  border-radius: 3rem;
+}
+.rating {
+  position: absolute;
+  left: 1%;
+  right: 99%;
+  top: 40%;
+  bottom: 60%;
+}
+.review {
+  position: absolute;
+  left: 62.96%;
+  right: 37.04%;
+  top: 23.94%;
+  bottom: 76.06%;
+}
+.rating > p,
+.review > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.rating > img {
+  width: 15.23px;
+  height: 14.58px;
+}
+.polcadot {
+  position: absolute;
+  left: 70.19%;
+  right: 29.81%;
+  top: 64.75%;
+  bottom: 35.25%;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 570px;
+  height: 35.84px;
+  position: absolute;
+  top: 45rem;
+}
+
+/* --------------------Main Style--------------- */
+main {
+  position: relative;
+}
+
+/* --outlook section */
+
+.line {
+  width: 100%;
+  opacity: 0.15;
+  border: 1.5px solid #998f8f;
+  margin: 68.5px 0;
+}
+
+.outlook > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.outlook > div > :first-child {
+  width: 70px;
+  height: 70px;
+  background: #f3fcf7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+.outlook img {
+  width: 32.5px;
+  height: 26px;
+}
+
+/* --benefit section */
+.benefit {
+  margin: 15rem 0;
+  position: relative;
+}
+.benfit-content {
+  position: relative;
+}
+.benefit > div > :last-child > ul {
+  margin-top: 4rem;
+}
+.benefit > div > :last-child > ul > img {
+  width: 26px;
+  height: 19.39px;
+}
+.check {
+  margin-left: 1rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d1d1f;
+}
+
+.img-card {
+  width: 441px;
+  height: 608px;
+  background: #f3fafb;
+  margin-right: 10%;
+}
+.img-card img {
+  width: 80%;
+  height: 85%;
+  display: block;
+  margin: 0 auto;
+}
+.polcadot-on-text {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  z-index: -1;
+}
+
+/* ---Stars Section */
+.polcadot-on-text-2 {
+  position: absolute;
+  top: 13%;
+  left: -4%;
+  z-index: -1;
+}
+
+/* --Features Section */
+.features {
+  margin-bottom: 15rem;
+}
+
+.features img {
+  width: 100%;
+  height: 100%;
+}
+.half-width2 > div {
+  width: 350px;
+  height: 350px;
+}
+
+/* --Features Section */
+.features > .content > :first-child > :nth-child(2n) {
+  background-color: #f3fcf7;
+}
+.features > .content > :last-child > :nth-child(1n) {
+  background-color: #f3fcf7;
+}
+
+.features-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features-descriptions {
+  width: 80%;
+  height: 80%;
+  padding: 2rem;
+}
+
+/* ---Product section */
+.product {
+  margin-bottom: 15rem;
+}
+.card {
+  border: 2px solid #06c167;
+  padding: 1rem;
+}
+.card > img {
+  width: 190px;
+  height: 190px;
+  display: block;
+  margin: 0 auto;
+}
