@@ -178,8 +178,40 @@ a {
   margin: 0 auto;
   margin: 10px 0;
 }
+button:hover {
+  background-color: #1d1d1f;
+  transition: 2s;
+}
 .text-center {
   text-align: center;
+}
+
+/* ---animation-- */
+.leftSpend-animation {
+  animation: leftSide 3s;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes leftSide {
+  from {
+    left: -20%;
+  }
+  to {
+    left: 0%;
+  }
+}
+.rightSpend-animation {
+  animation: rightSide 3s;
+  animation-fill-mode: both;
+  position: relative;
+}
+@keyframes rightSide {
+  from {
+    right: -20%;
+  }
+  to {
+    right: 0%;
+  }
 }
 /* ------------------Header Style-------------*/
 header {
@@ -397,7 +429,7 @@ main {
   width: 100%;
   height: 100%;
 }
-.features img:hover{
+.features img:hover {
   transition: 1s;
   transform: scale(1.1);
 }
