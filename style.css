@@ -229,6 +229,9 @@ header {
 }
 
 /* --navbar-- */
+#hamburger-icon {
+  display: none;
+}
 nav {
   display: flex;
   align-items: center;
@@ -529,3 +532,317 @@ input[type="submit"] {
 }
 
 /* ----------------------End---------------- */
+
+/* ----------------------------Responsiveness With Media Queries--------------------------- */
+
+/* -------Mobile Device------- */
+@media all and (max-width: 576px) {
+  /* --Section Distance-- */
+  .outlook,
+  .stars,
+  .features,
+  .product {
+    margin-bottom: 5rem;
+  }
+  .small-footer {
+    margin-top: 3rem;
+  }
+  /* --Typography-- */
+  h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 0.8rem;
+  }
+  h4 {
+    text-align: center;
+  }
+  .title,
+  .title-2,
+  .sub-title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .title-2 {
+    font-size: 1rem;
+  }
+  .sub-title {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  /* --Animation Effect-- */
+  .leftSpend-animation,
+  .rightSpend-animation {
+    animation: none !important;
+  }
+  /* --Button-- */
+  .fill-btn {
+    display: block;
+    height: 2rem;
+    font-size: 10px;
+    line-height: normal;
+  }
+  /* --header-- */
+  /* ---navbar for Desktop-- */
+  nav ul {
+    display: none;
+  }
+  #hamburger-icon {
+    display: block;
+    margin-right: 30%;
+    color: #06c167;
+  }
+
+  /* --Navbar End-- */
+
+  .half-width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-img {
+    position: relative;
+  }
+  .img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .rating,
+  .review,
+  .polcadot {
+    position: absolute;
+  }
+  .rating,
+  .review {
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: 0 auto;
+    z-index: 1;
+  }
+  .rating {
+    top: 70%;
+  }
+  .review {
+    top: 90%;
+  }
+  .polcadot {
+    left: 50%;
+    right: 0%;
+    top: 60%;
+    bottom: 0%;
+  }
+  .brand-logo {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 20%;
+    top: 4rem;
+  }
+  .brand-logo img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+  }
+  /* ---Outlook Section--- */
+  .outlook {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+  .outlook > div {
+    margin-top: 2rem;
+  }
+  .outlook > div {
+    display: flex;
+    align-items: none;
+    justify-content: none;
+    background: #f3fcf7;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 85%;
+    height: auto;
+    min-height: 5rem;
+  }
+  .outlook > div > :nth-child(1) {
+    /* --responsiveness of the div-- */
+    width: 100%;
+    max-width: 30%;
+    height: auto;
+  }
+  .outlook > div > :nth-child(2) {
+    /* --responsiveness of the div-- */
+    width: 100%;
+    max-width: 70%;
+    height: auto;
+  }
+
+  .outlook img {
+    /* --Responsiveness of the img-- */
+    width: 100%;
+    max-width: 32.5px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  /* ---Benefit Section & Stars Section--- */
+  .benefit p,
+  h1 {
+    font-weight: bolder;
+  }
+  .benefit-content,
+  .benefit-content2 {
+    padding-left: 0%;
+    margin-top: 10%;
+    /* --For Responsiveness-- */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-card,
+  .our-stars {
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    background: #f3fafb;
+    left: 0%;
+  }
+  .img-card img {
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    padding-bottom: 1.5rem;
+  }
+  .polcadot-on-text {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    z-index: -1;
+  }
+  .benefit {
+    margin-bottom: 30%;
+    /* --For Responsiveness-- */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .benefit > div > :last-child > ul {
+    margin-top: 2rem;
+  }
+  .benefit-content2 .half-width > div {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  /* ---Features Section--- */
+  .half-width2 {
+    flex-direction: column;
+    /* --For Responsiveness-- */
+    width: 100%;
+    height: auto;
+  }
+  .features img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .features-description {
+    justify-content: center;
+    background-color: #0c0e0d;
+  }
+  .features-descriptions {
+    width: 100%;
+  }
+  .features h2,
+  p {
+    text-align: center;
+  }
+  .fillout-btn {
+    display: block;
+    height: 2rem;
+    font-weight: 300;
+    font-size: 12px;
+    margin-left: 35%;
+  }
+
+  /* ---Product Section--- */
+  .product {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card > img {
+    width: 100%;
+    max-width: 190px;
+    height: auto;
+  }
+
+  /* ------Footer------- */
+  footer {
+    text-align: center;
+  }
+  footer .sub-title {
+    margin-bottom: 2rem;
+  }
+  .social-icons {
+    margin: 2.5rem 0rem;
+  }
+  .div-3 {
+    margin: 1rem 0rem;
+  }
+  input {
+    height: 50px;
+    border: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  input[type="text"],
+  input[type="submit"] {
+    width: 90%;
+    padding-left: 0%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  input[type="submit"] {
+    margin-left: 0rem;
+  }
+}
+
+@media all and (max-width: 992px) {
+  
+  /* --Animation Effect-- */
+  .leftSpend-animation,
+  .rightSpend-animation {
+    animation: none !important;
+  }
+
+  /* ---navbar for Desktop-- */
+  nav ul {
+    display: none;
+  }
+  #hamburger-icon {
+    display: block;
+    margin-right: 30%;
+    color: #06c167;
+  }
+
+  /* --Navbar End-- */
+}
